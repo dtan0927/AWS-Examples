@@ -12,7 +12,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "default" {
-    bucket = "my-unique-bucket-name-123456"
 }
 
 resource "aws_s3_object" "object" {
